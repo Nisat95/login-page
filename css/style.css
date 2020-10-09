@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:url(../img/321138.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background:cover;
+  
+}
+
+.form{
+    width:395px;
+    height:350px;
+    background:whitesmoke;
+    padding:15px;
+    border-radius:10px;
+    border:2px solid transparent;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    box-shadow:4px 5px 23px 0px;
+}
+
+input{
+    padding:15px;
+}
+
+::placeholder{
+    color:peru;
+    font-size:18px;
+}
+
+.user{
+    width:300px;
+    height:54px;
+    margin:auto;
+    border:3px solid gray;
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom:5px;
+    margin-left:30px;
+}
+
+.login{
+    background:rgb(144, 143, 188);
+    font-size:18px;
+    border-radius:5px;
+    font-weight:600;
+    width:82%;
+    height:50px;
+    padding:0;
+    border:none;
+    margin-top:5px;
+    margin-bottom:15px;
+    margin-left:30px;
+ 
+    position: relative;
+    overflow:hidden;
+
+}
+
+
+.login:hover{
+   border:5px solid gray;
+   padding:20;
+   cursor:pointer;
+   
+   
+}
+
+.likha{
+    text-align:center;
+    margin-bottom:2px;
+}
+
+.likha a{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+ 
+}
+
+
+
+hr{
+    margin-bottom:5px;
+    margin:auto;
+    color:gray;
+    padding:10;
+}
+
+.create{
+    width:200px;
+    height:50px;
+    margin:auto;
+    background:rgb(144, 143, 188);
+    border-radius:5px;
+    padding:15px;
+    text-align:center;
+    display:block;
+    margin-top:5px;
+    margin-right:35px;
+  
+    
+
+}
+
+
+.create a{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+ 
+}
+
+
+
+
